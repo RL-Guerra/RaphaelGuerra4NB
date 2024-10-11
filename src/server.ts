@@ -12,5 +12,3 @@ app.use(userRoutes);
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
-
-// Exec do servidor: npx ts-node src/server.ts
